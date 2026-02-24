@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Memory Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+    <h1>🌳 My Memory Map</h1>
+    <div>
+        <button onclick="exportTree()">Export</button>
+        <button onclick="document.getElementById('importFile').click()">Import</button>
+        <button onclick="logout()">Logout</button>
+        <input type="file" id="importFile" hidden>
+    </div>
+</div>
+
+<div id="tree"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
